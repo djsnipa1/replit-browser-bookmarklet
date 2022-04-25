@@ -1,8 +1,8 @@
 "use strict";
-if (canOpenInGitpod()) {
-    window.open(renderGitpodUrl("https://gitpod.io"));
+if (canOpenInReplit()) {
+    window.open(renderReplitUrl("https://replit.com/github"));
 }
-function canOpenInGitpod() {
+function canOpenInReplit() {
     var metaTags = document.getElementsByTagName("meta");
     for (var i = 0; i < metaTags.length; i++) {
         var metaTag = metaTags[i];
@@ -18,7 +18,7 @@ function canOpenInGitpod() {
     }
     return false;
 }
-function renderGitpodUrl(gitpodURL) {
-    var baseURL = "".concat(window.location.protocol, "//").concat(window.location.host);
-    return "".concat(gitpodURL, "/#").concat(baseURL) + window.location.pathname;
+function renderReplitUrl(replitURL) {
+    // const baseURL = `${window.location.protocol}//${window.location.host}`;
+    return "".concat(replitURL) + window.location.pathname;
 }

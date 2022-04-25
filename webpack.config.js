@@ -5,6 +5,7 @@ module.exports = {
     mode: 'production',
     entry: {
         gitpodify: './dist/gitpodify.js',
+        replitify: './dist/replitify.js',
     },
     output: {
         filename: 'bundles/[name].bundle.js',
