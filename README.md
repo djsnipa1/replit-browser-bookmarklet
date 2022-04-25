@@ -1,6 +1,6 @@
-# Gitpod Browser Bookmarklet
+# Gitpod & Replit Browser Bookmarklet
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/gitpod-io/browser-extension)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/djsnipa1/replit-browser-bookmarklet)
 
 This is the browser bookmarklet for Gitpod which we provide as an alternative to our browser extension. Refer to https://www.gitpod.io/docs/browser-bookmarklet/ for installation instructions.
 
